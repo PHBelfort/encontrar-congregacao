@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="uft-8"/>
+  <title>ENDEREÇO IPDA PORTO VELHO</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div>
+    <label for="sucursal">SUCURSAL:</label>
+    <select id="sucursal" onchange="mostrarItensCorrespondentes()">
+      <option value="selecione">Selecione uma Sucursal</option>
+      <option value="TancredoNeves">Tancredo Neves</option>
+      <option value="Caladinho">Caladinho</option>
+      <option value="saofrancisco">São Francisco</option>
+      <option value="uniaoVitoria">União da Vitória</option>
+      <option value="setorialPvh">Setorial PVH</option>
+    </select>
+  </div>
+  <br><br>
+  <div>
+    <label for="itensCorrespondentes">CONGREGAÇÃO:</label>
+    <select id="itensCorrespondentes" onchange="mostrarItemSelecionado()">
+      <option value="selecione">Selecione uma Congregação</option>
+    </select>
+  </div>
+
+  <p id="itemSelecionado"></p>
+
+  <div id="map"></div>
+
+  <div class="footer">
+    <p>Sistema em desenvolvimento. Entre em contato para atualizações e sugestões através do contato (69) 99304-2065</p>
+  </div>
+  
+  <script src="script.js"></script>
+    
+</body>
+</html>

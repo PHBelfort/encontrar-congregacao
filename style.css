@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff11;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2c3e50;
+  }
+
+  select {
+    width: 200px;
+    padding: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+
+  .footer {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+  select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+
+  #itemSelecionado {
+    text-align: center;
+    color: #045991;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  #map {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+  }
