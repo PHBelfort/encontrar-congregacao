@@ -1,53 +1,47 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #ffffff11;
-  }
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff11;
+    }
 
-  label {
-    display: block;
-    margin-bottom: 5px;
-    color: #2c3e50;
-  }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
 
-  select {
-    width: 100%;
-    padding: 15px;
-    font-size: 14px;
-    border:3px solid #ccc
-    border-radius: 5px;
-    margin: 2px 100;
-    transition: border-color 0.3s, box-shadow 0.3s;
-  }
+    label {
+      margin: 5px 0;
+      color: #2c3e50;
+    }
 
-  .footer {
-    text-align: center;
-    background-color: #f0f0f0;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
+    select {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 5px 0; /* Espaço nas laterais */
+    }
 
+    #itemSelecionado {
+      text-align: center;
+      color: #3498db;
+      font-weight: bold;
+      margin-top: 10px;
+    }
 
-  select:focus {
-    border-color: #3498db;
-    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
-  }
+    #map {
+      width: 100%;
+      height: 300px;
+      margin-top: 20px;
+    }
 
-  #itemSelecionado {
-    text-align: center;
-    color: #045991;
-    font-weight: bold;
-    margin-top: 10px;
-  }
-
-  #map {
-    width: 100%;
-    height: 300px;
-    margin-top: 20px;
-  }
+    .footer {
+      text-align: center;
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
