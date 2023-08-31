@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="uft-8"/>
+  <meta charset="uft-8"/>
   <title>ENDEREÇO IPDA PORTO VELHO</title>
   <link href="style.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-  <div>
-    <label for="sucursal">SUCURSAL:</label>
-    <select id="sucursal" onchange="mostrarItensCorrespondentes()">
-      <option value="selecione">Selecione uma Sucursal</option>
-      <option value="TancredoNeves">Tancredo Neves</option>
-      <option value="Caladinho">Caladinho</option>
-      <option value="saofrancisco">São Francisco</option>
-      <option value="uniaoVitoria">União da Vitória</option>
-      <option value="setorialPvh">Setorial PVH</option>
-    </select>
-  </div>
-  <br><br>
-  <div>
-    <label for="itensCorrespondentes">CONGREGAÇÃO:</label>
-    <select id="itensCorrespondentes" onchange="mostrarItemSelecionado()">
-      <option value="selecione">Selecione uma Congregação</option>
-    </select>
+  <div class="container">
+    <div class="floating-box login-box">
+      <div class="title">Encontre uma IGREJA DEUS É AMOR em Porto Velho</div>
+      
+      <label for="sucursal" class="section-title">SUCURSAL:</label>
+      <select id="sucursal" onchange="mostrarItensCorrespondentes()">
+        <option value="selecione">Selecione uma Sucursal</option>
+        <option value="TancredoNeves">Tancredo Neves</option>
+        <option value="Caladinho">Caladinho</option>
+        <option value="saofrancisco">São Francisco</option>
+        <option value="uniaoVitoria">União da Vitória</option>
+        <option value="setorialPvh">Setorial PVH</option>
+      </select>
+
+      <label for="itensCorrespondentes" class="section-title">CONGREGAÇÃO:</label>
+      <select id="itensCorrespondentes" onchange="mostrarItemSelecionado()">
+        <option value="selecione">Selecione uma Congregação</option>
+        <!-- Opções de congregação aqui -->
+      </select>
+
+      <p id="itemSelecionado"></p>
+      <div id="map"></div>
+    </div>
   </div>
 
-  <p id="itemSelecionado"></p>
+    <script src="script.js"></script>
 
-  <div id="map"></div>
-  
-  <script src="script.js"></script>
-    
 </body>
 </html>
