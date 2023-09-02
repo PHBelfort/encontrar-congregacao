@@ -19,34 +19,38 @@ const resultadosEspeciais = {
       "Universitário": "313 R. São Lourenço Porto Velho, Rondônia",
       
       // Caladinho
-      "Caladinho": "Endereço aqui",
-      "Caladinho União": "Endereço aqui",
-      "Cidade Nova": "Endereço aqui",
-      "Cidade do Lobo": "Endereço aqui",
-      "Novo Horizonte": "Endereço aqui",
-      "Gurgel": "Endereço aqui",
+      "Caladinho": "Rua Tancredo Neves, 4244, Bairro Caladinho",
+      "Caladinho União": "Rua Abacateiro, 5922, Bairro Cohab",
+      "Cidade Nova": "Rua Cícera Severina, 3634 - Bairro Cidade Nova",
+      "Cidade do Lobo": "Rua Emílio Feitosa, 3439 - Bairro Cidade do Lobo",
+      "Eldorado": "Rua Algodoeiro, 4590, Bairro Eldorado",
+      "Eletronorte": "Rua Angico, 3250, Bairro Eletronorte",
+      "Cohab": "Rua Anari, 6138, Bairro Cohab Floresta",
+      "Gurgel": "Rua Noroeste, 1797 - Bairro Castanheira",
+      "Novo Horizonte": "Rua Elias de Souza, 3802, Bairro Conceição",
           
       // Sucursal São Francisco
-      "Jk 2": "Endereço aqui",
+      "JK": "R. Itatuape, 7917 - Juscelino Kubitschek, Porto Velho - RO",
       "São Francisco": "Endereço aqui",
-      "Ronaldo Aragão": "Endereço aqui",
-      "Ulisses Guimarães": "Endereço aqui",
+      "Ronaldo Aragão": "R. Paca, 12152 - Ronaldo Aragão, Porto Velho - RO",
+      "Ulisses Guimarães": "R. Centauro, 2-11952 - Ulysses Guimarães",
       "Km-13": "Endereço aqui",
       
       // Sucursal União da Vitória
-      "Cuniã": "Av. 7 de Setembro - Cuniã, Porto Velho - RO, 76824-465",
-      "Esperança da Comunidade": "Endereço aqui",
-      "Maringá": "Endereço aqui",
+      "União da Vitória": "Av. Calama, 7175 - União da Vitória, Porto Velho - RO",
+      "Cuniã": "Av. 7 de Setembro - Cuniã, Porto Velho - RO",
+      "Esperança da Comunidade": "Rua Sheila Regina, 5191 - Esperança da Comunidade, Porto Velho - RO",
+      "Maringá": "Rua Hilton Guedez - Maringá, Porto Velho - RO",
       "Boa Vista": "Endereço aqui",
-      "União da Vitória": "Endereço aqui",
       
       // Setorial PVH
-      "Setorial Porto Velho": "Endereço aqui",
-      "Areal": "Endereço aqui",
-      "Tucumanzal": "Endereço aqui",
-      "Costa e Silva": "Endereço aqui",
-      "São Sebastião": "Endereço aqui",
-      "Pedrinhas": "Endereço aqui",
+      "Setorial Porto Velho": "Rua Brasília, 2145 - Centro",
+      "Areal da Floresta": "R. das Flores, 111 - Bairro Areal da Floresta",
+      "Tucumanzal": "R. Bahia, 120 - Tucumanzal",
+      "Costa e Silva": "Av. dos Imigrantes, 2810 - Costa e Silva",
+      "São Sebastião": "Rua Mário de Andrade, 5866 - São Sebastiao, Porto Velho - RO",
+      "Pedrinhas": "Rua Jamari, 2079 - Pedrinhas, Porto Velho - RO",
+      "Nacional": "Estr. Belmonte, 3019 - Nacional, Porto Velho - RO",
     };
     
     
