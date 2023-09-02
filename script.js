@@ -1,9 +1,9 @@
 const itensPorSucursal = {
       TancredoNeves: ["Agenor de Carvalho", "Cristal da Calama", "Jd Santana 1", "Jd Santana 2", "Pantanal", "Socialista", "Tancredo Neves", "Três Marias", "Universitário"],
       Caladinho: ["Caladinho", "Caladinho União", "Cidade Nova", "Cidade do Lobo", "Novo Horizonte", "Gurgel"],
-      saofrancisco: ["Jk 2", "São Francisco", "Ronaldo Aragão", "Ulisses Guimarães", "Km-13"],
+      saofrancisco: ["JK", "São Francisco", "Ronaldo Aragão", "Ulisses Guimarães", "Km-13"],
       uniaoVitoria: ["Cuniã", "Esperança da Comunidade", "Maringá", "Boa Vista", "União da Vitória"],
-      setorialPvh: ["Setorial Porto Velho", "Areal", "Tucumanzal", "Costa e Silva", "São Sebastião", "Pedrinhas"]
+      setorialPvh: ["Setorial Porto Velho", "Areal da Floresta", "Tucumanzal", "Costa e Silva", "São Sebastião", "Pedrinhas"]
     };
 
 const resultadosEspeciais = {
