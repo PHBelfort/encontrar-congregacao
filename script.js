@@ -15,7 +15,7 @@ const resultadosEspeciais = {
       "Pantanal": "R. Turquia, 8539 - Pantanal",
       "Socialista": "Avenida Rio de Janeiro, 8885 - Socialista, Porto Velho - RO",
       "Tancredo Neves": "Av. José Amador dos Reis, 3930 - Tancredo Neves, Porto Velho - RO, 76829-580",
-      "Três Marias": "Três Marias",
+      "Três Marias": "Rua benedito inocencio 7004 tres marias",
       "Universitário": "313 R. São Lourenço Porto Velho, Rondônia",
       
       // Caladinho
@@ -42,6 +42,7 @@ const resultadosEspeciais = {
       "Esperança da Comunidade": "Rua Sheila Regina, 5191 - Esperança da Comunidade, Porto Velho - RO",
       "Maringá": "Rua Hilton Guedez - Maringá, Porto Velho - RO",
       "Boa Vista": "Endereço aqui",
+      "Nova Esperança": "Endereço aqui",
       
       // Setorial PVH
       "Setorial Porto Velho": "Rua Brasília, 2145 - Centro",
