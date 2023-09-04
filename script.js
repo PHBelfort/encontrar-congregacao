@@ -42,7 +42,7 @@ const resultadosEspeciais = {
       "Esperança da Comunidade": "Rua Sheila Regina, 5191 - Esperança da Comunidade, Porto Velho - RO",
       "Maringá": "Rua Hilton Guedez - Maringá, Porto Velho - RO",
       "Boa Vista": "Endereço aqui",
-      "Nova Esperança": "Endereço aqui",
+      "Nova Esperança": "R. Florianópolis, 5241 - Nova Esperança",
       
       // Setorial PVH
       "Setorial Porto Velho": "Rua Brasília, 2145 - Centro",
